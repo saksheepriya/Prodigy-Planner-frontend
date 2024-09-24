@@ -1,0 +1,42 @@
+/* TaskForm.css */
+
+.close_icon {
+  cursor: pointer;
+}
+.Task_form {
+  z-index: 2;
+  position: absolute;
+  right: -15px;
+  display: flex;
+  flex-direction: column;
+  margin: 5%;
+  margin-top: 500px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  background: #bbd0ffff;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(14.5px);
+  -webkit-backdrop-filter: blur(14.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.taskForm_label {
+  color: #000;
+  margin: 10px 0;
+}
+
+.taskForm_input,
+.taskForm_select,
+.Addtask_button {
+  border-radius: 5px;
+  border: 2px solid #b375f296;
+  margin: 5px;
+  width: 100%;
+}
+.Addtask_button {
+  color: white;
+  background-color: #5c015c;
+}

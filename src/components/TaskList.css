@@ -1,0 +1,43 @@
+.task-list-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  position: absolute;
+  margin-top: 400px;
+  height: 100%;
+  width: 100%;
+}
+
+.edit_button,
+.delete_button {
+  width: 30px;
+  border-radius: 8px;
+  margin: 0 5px;
+  padding-bottom: 5px;
+  background-color: #ffc3ff;
+}
+
+.complete_button,
+.sort_button {
+  border-radius: 8px;
+  margin: 5px;
+  padding-bottom: 5px;
+  background-color: #ffc3ff;
+}
+
+.tasklist_li {
+  list-style: none;
+  display: flex;
+  margin-bottom: 30px;
+  padding: 10px;
+  color: black;
+  background-color: #b8c0ffff;
+  border: 0.5px solid #000000;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px;
+  justify-content: space-between;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.completed {
+  opacity: 0.5; /* Adjust the opacity value as needed */
+}

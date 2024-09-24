@@ -1,0 +1,57 @@
+/* 
+.filter {
+  margin: 0.1vw;
+  position: absolute;
+  right: 2vw;
+  
+
+}
+
+.filter_label {
+  margin-right: 10px;
+  
+}
+
+.filter_select {
+  padding: 5px;
+  box-shadow: "2px 4px 6px 0.5px";
+  border-radius: 10px;
+
+} */
+
+/* Filter.css */
+
+.filter {
+  margin: 20px;
+}
+
+.filter_label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.filter_select {
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  background-color: #ffd6ffff;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Add some styles for better visual appearance */
+.filter_select:hover {
+  border-color: #555;
+}
+
+.filter_select:focus {
+  border-color: #2196f3;
+  box-shadow: 0 0 5px rgba(33, 150, 243, 0.7);
+}
+
+/* Add styles for better readability of options */
+.filter_select option {
+  font-size: 14px;
+}
