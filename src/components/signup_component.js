@@ -11,7 +11,7 @@ export default function SignUp() {
     e.preventDefault();
 
     console.log(fname, lname, email, password);
-    fetch("http://localhost:5000/register", {
+    fetch("https://prodigy-planner-backend.onrender.com/register", {
       method: "POST",
       crossDomain: true,
       headers: {
